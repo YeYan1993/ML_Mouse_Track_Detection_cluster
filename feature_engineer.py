@@ -132,7 +132,7 @@ def feature_engine(seq_len,data_x,data_y,data_t,aim_x,aim_y):
 
 
 if __name__ == '__main__':
-    input_path = "../data/dsjtzs_txfz_training.txt"
+    input_path = "data/dsjtzs_txfz_training.txt"
     input_names = ["index", "move_data", "target", "label"]
     original_data_process = Data_process(input_path, input_names)
     input_data, label, sequence_lenth = original_data_process.preprocessing_data()
