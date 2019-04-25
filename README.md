@@ -25,8 +25,8 @@
 
 ## 3.One-class SVM
 * （1）与传统SVM不同的是，one class SVM是一种非监督的算法。它是指在训练集中只有一类positive（或者negative）的数据，而没有另外的一类。而这时，需要学习（learn）的就是边界（boundary），而不是最大间隔（maximum margin）。
-![oneclassSVM](markdown_img\oneclassSVM.png)
+![oneclassSVM](markdown_img/oneclassSVM.png)
 * （2）与传统SVM不同的是，one class SVM是一种非监督的算法。它是指在训练集中只有一类positive（或者negative）的数据，而没有另外的一类。而这时，需要学习（learn）的就是边界（boundary），而不是最大间隔（maximum margin）。与传统SVM不同的是，one class SVM是一种非监督的算法。它是指在训练集中只有一类positive（或者negative）的数据，而没有另外的一类。而这时，需要学习（learn）的就是边界（boundary），而不是最大间隔（maximum margin）。
-![oneclassSVM_2](markdown_img\oneclassSVM_2.jpg)
+![oneclassSVM_2](markdown_img/oneclassSVM_2.jpg)
 > （1）结果：P = 0.48，R = 0.94，F1_score = 0.63
 > （2）这种方式可以通过训练的方式找到类的边界，而不是最大间隔，因此可以通过学习到的边界，来在线定义是否为异常。
